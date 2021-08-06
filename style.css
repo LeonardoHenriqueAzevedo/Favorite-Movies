@@ -79,6 +79,10 @@ header{
 .cards {
   max-width: 400px;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 100px;
 }
 
 .card{
@@ -97,4 +101,13 @@ header{
 .card_info{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 100px;
+}
+
+.card_director{
+  padding: 5px 20px;
+  border-radius: 20px;
+  text-align: center;
+  filter: brightness(90%);
+  background-color: #6a58a3;
 }

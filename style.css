@@ -74,3 +74,27 @@ header{
   font-size: 19px;
   line-height: 30px;
 }
+
+/* Cards */
+.cards {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.card{
+  background-color: #7159c1;
+}
+
+.card_image-container img{
+  width: 100%;
+}
+
+.card_content, 
+.card_info{
+  padding: 24px;
+}
+
+.card_info{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

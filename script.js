@@ -11,5 +11,7 @@ closeModal.addEventListener("click", () => {
 for (let card of cards) {
   card.addEventListener("click", () => {
     modalOverlay.classList.add("active");
+    modalOverlay.querySelector("iframe").src = `https://www.youtube.com/embed/${videoID}`;
   })
 };
+

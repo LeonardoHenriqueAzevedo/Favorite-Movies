@@ -152,3 +152,10 @@ header{
   opacity: 1;
   visibility: visible;
 }
+
+iframe{
+  width: 100%;
+  height: 96%;
+  top: 4%;
+  position: absolute;  
+}

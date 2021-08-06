@@ -127,6 +127,8 @@ header{
   height: 100%;
   position: fixed;
   top: 0;
+  opacity: 0;
+  visibility: hidden;
 }
 
 .modal{
@@ -134,4 +136,18 @@ header{
   margin: 5vh auto;
   width: 90%;
   height: 90%;
+  position: relative;
+}
+
+.modal .close-modal{
+  color: black;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  cursor: pointer;
+}
+
+.modal-overlay.active{
+  opacity: 1;
+  visibility: visible;
 }

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
 :root{
-  --green: #50fa7b;
+  --blue: rgb(89, 140, 240);
 }
 
 *{
@@ -20,11 +20,11 @@ header{
   border-bottom: 1px solid #333;
 }
 
-header div{
+.links{
   text-align: center;
 }
 
-header div a{
+.links a{
   color: white;
   font-size: 18px;
   margin: 0 16px;
@@ -32,9 +32,13 @@ header div a{
   text-decoration: none;
 }
 
-header div a:hover{
+#links-footer a{
+  border-bottom: 2px solid var(--blue);
+}
+
+.links a:hover{
   cursor: pointer;
-  color: var(--green);
+  color: var(--blue);
   transition: all 0.3s ease;
 }
 
@@ -46,7 +50,7 @@ header div a:hover{
 #wrapper img{
   border-radius: 50px;
   width: 300px;
-  border: 5px solid black;
+  border: 5px solid var(--blue);
   margin-bottom: 32px;
 }
 

@@ -13,3 +13,6 @@ A website to show my favorite movies and the information. when you click in the 
 - **JS**
 ## Back End
 - **JS**
+
+# 📝 License
+This project have the license of the [MIT](./LICENSE).
